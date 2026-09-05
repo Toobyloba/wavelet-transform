@@ -220,7 +220,7 @@ public final class N6705WaveformCommands {
                 "ARB:VOLT:CDW:DWEL " + number(dwellSeconds) + "," + channelList,
                 "ARB:VOLT:CDW " + voltagePoints + "," + channelList,
                 "ARB:TERM:LAST OFF," + channelList,
-                "ARB:COUN 1," + channelList,
+                "ARB:COUN INF," + channelList,
                 "VOLT:MODE ARB," + channelList,
                 "TRIG:ARB:SOUR BUS",
                 "OUTP ON," + channelList,
